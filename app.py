@@ -7,7 +7,7 @@ st.title("🎬 Movie Genre Classifier")
 
 # Load dataset
 data = []
-with open("train_data.txt", "r", encoding="utf-8") as f:
+with open("small_data.txt", "r", encoding="utf-8") as f:
     for line in f:
         parts = line.split(":::")
         if len(parts) == 4:
